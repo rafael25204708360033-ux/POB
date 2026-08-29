@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Somatorio {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         int soma = 0;
         int quantidade = 0;
 
         System.out.print("Digite um numero positivo (ou negativo para parar): ");
-        int numero = scanner.nextInt();
+        int numero = sc.nextInt();
 
         while (numero >= 0) {
             soma += numero;
             quantidade++;
 
             System.out.print("Digite o proximo numero (ou negativo para parar): ");
-            numero = scanner.nextInt();
+            numero = sc.nextInt();
         }
 
         if (quantidade > 0) {
@@ -29,6 +29,6 @@ public class Somatorio {
             System.out.println("Nenhum numero positivo foi digitado.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }

@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class BuscaSequencial {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int[] vetor = new int[6];
 
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Digite o valor para a posicao [" + i + "]: ");
-            vetor[i] = scanner.nextInt();
+            vetor[i] = sc.nextInt();
         }
 
         System.out.print("\nDigite o numero a ser buscado (X): ");
-        int x = scanner.nextInt();
+        int x = sc.nextInt();
 
         boolean encontrado = false;
         int posicao = -1;
@@ -32,6 +32,6 @@ public class BuscaSequencial {
             System.out.println("Numero " + x + " nao esta presente no vetor.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }

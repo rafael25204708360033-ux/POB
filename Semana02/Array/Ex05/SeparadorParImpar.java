@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class SeparadorParImpar {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int[] original = new int[10];
         int totalPares = 0;
 
         for (int i = 0; i < original.length; i++) {
             System.out.print("Digite o " + (i + 1) + "º numero: ");
-            original[i] = scanner.nextInt();
+            original[i] = sc.nextInt();
             if (original[i] % 2 == 0) {
                 totalPares++;
             }
@@ -41,6 +41,6 @@ public class SeparadorParImpar {
         }
         System.out.println();
 
-        scanner.close();
+        sc.close();
     }
 }

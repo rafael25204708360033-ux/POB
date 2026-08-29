@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Contagem {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o limite inferior (A): ");
-        int a = scanner.nextInt();
+        int a = sc.nextInt();
 
         System.out.print("Digite o limite superior (B): ");
-        int b = scanner.nextInt();
+        int b = sc.nextInt();
 
         int pares = 0;
         int impares = 0;
@@ -26,6 +26,6 @@ public class Contagem {
         System.out.println("Quantidade de pares: " + pares);
         System.out.println("Quantidade de impares: " + impares);
 
-        scanner.close();
+        sc.close();
     }
 }

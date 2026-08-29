@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Validar {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         final int SENHA_CORRETA = 2026;
         int senhaDigitada;
 
         do {
             System.out.print("Digite a senha numerica: ");
-            senhaDigitada = scanner.nextInt();
+            senhaDigitada = sc.nextInt();
 
             if (senhaDigitada != SENHA_CORRETA) {
                 System.out.println("Senha Incorreta! Tente novamente.");
@@ -18,6 +18,6 @@ public class Validar {
         } while (senhaDigitada != SENHA_CORRETA);
 
         System.out.println("Acesso Permitido!");
-        scanner.close();
+        sc.close();
     }
 }

@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class ExtremosVetor {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int[] valores = new int[10];
 
         for (int i = 0; i < valores.length; i++) {
             System.out.print("Digite o valor para a posicao [" + i + "]: ");
-            valores[i] = scanner.nextInt();
+            valores[i] = sc.nextInt();
         }
 
         int maior = valores[0];
@@ -31,6 +31,6 @@ public class ExtremosVetor {
         System.out.println("\nMaior valor: " + maior + " (no indice " + indiceMaior + ")");
         System.out.println("Menor valor: " + menor + " (no indice " + indiceMenor + ")");
 
-        scanner.close();
+        sc.close();
     }
 }

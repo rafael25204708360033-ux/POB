@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Fatorial {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite um numero inteiro nao negativo (N): ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         if (n < 0) {
             System.out.println("Numero invalido para calculo de fatorial.");
@@ -19,6 +19,6 @@ public class Fatorial {
             System.out.println(n + "! = " + fatorial);
         }
 
-        scanner.close();
+        sc.close();
     }
 }

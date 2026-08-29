@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class ControleNotasTurma {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double[] notas = new double[8];
         double soma = 0.0;
 
         for (int i = 0; i < notas.length; i++) {
             System.out.print("Digite a nota final do aluno " + (i + 1) + ": ");
-            notas[i] = scanner.nextDouble();
+            notas[i] = sc.nextDouble();
             soma += notas[i];
         }
 
@@ -24,6 +24,6 @@ public class ControleNotasTurma {
             }
         }
 
-        scanner.close();
+        sc.close();
     }
 }
