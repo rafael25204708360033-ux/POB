@@ -1,4 +1,4 @@
-package POB. ... .dominio;
+package Semana03.exemplos.testeOBJ.dominio;
 
 public class Empregado {
     private String nome;

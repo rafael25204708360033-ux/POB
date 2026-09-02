@@ -1,6 +1,6 @@
-package POB. ... .controle;
+package Semana03.exemplos.testeOBJ.controle;
 
-import POB. ... .dominio.Empregado;
+import Semana03.exemplos.testeOBJ.dominio.Empregado;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
