@@ -1,6 +1,6 @@
 package Semana03.ExClass.Ex01.Controle;
 
-import Semana03.ExClass.Ex01.dominio.Livro;
+import Semana03.ExClass.Ex01.Dominio.Livro;
 
 public class controleLivro {
     public static void main(String[] args) {
