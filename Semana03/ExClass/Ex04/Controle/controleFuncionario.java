@@ -1,6 +1,6 @@
 package Semana03.ExClass.Ex04.Controle;
 
-import Semana03.ExClass.Ex04.dominio.Funcionario;
+import Semana03.ExClass.Ex04.Dominio.Funcionario;
 
 public class controleFuncionario {
     public static void main(String[] args) {
