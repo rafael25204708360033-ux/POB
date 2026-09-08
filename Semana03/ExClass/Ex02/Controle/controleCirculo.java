@@ -1,6 +1,6 @@
 package Semana03.ExClass.Ex02.Controle;
 
-import Semana03.ExClass.Ex02.dominio.Circulo;
+import Semana03.ExClass.Ex02.Dominio.Circulo;
 import java.util.Scanner;
 
 public class controleCirculo {
