@@ -1,6 +1,6 @@
 package controle;
 
-import dominio.ControleContaBancaria;
+import dominio.ContaBancaria;
 
 public class ControleContaBancaria {
     public static void main(String[] args) {
