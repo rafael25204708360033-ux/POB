@@ -1,4 +1,4 @@
-package Semana04.Exemplos.dominio;
+package semana04.semana04.exemplos.dominio;
 
 public class Funcionario implements Pagavel {
     

@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exheranca.ex05.dominio;
 
 public class ContaCorrente extends Conta {
     private double limiteChequeEspecial;

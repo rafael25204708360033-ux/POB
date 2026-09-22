@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exheranca.ex02.dominio;
 
 public class Gerente extends Funcionario {
     private double bonusFixo;

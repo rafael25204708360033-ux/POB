@@ -1,6 +1,6 @@
-package controle;
+package semana04.exencapsu.ex02.controle;
 
-import dominio.ContaBancaria;
+import semana04.exencapsu.ex02.dominio.ContaBancaria;
 
 public class ControleContaBancaria {
     public static void main(String[] args) {

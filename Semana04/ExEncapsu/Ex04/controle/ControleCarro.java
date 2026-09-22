@@ -1,6 +1,6 @@
-package controle;
+package semana04.exencapsu.ex04.controle;
 
-import dominio.Carro;
+import semana04.exencapsu.ex04.dominio.Carro;
 
 public class ControleCarro {
     public static void main(String[] args) {

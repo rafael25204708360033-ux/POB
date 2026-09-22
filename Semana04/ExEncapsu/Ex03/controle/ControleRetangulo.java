@@ -1,6 +1,6 @@
-package controle;
+package semana04.exencapsu.ex03.controle;
 
-import dominio.Retangulo;
+import semana04.exencapsu.ex03.dominio.Retangulo;
 
 public class ControleRetangulo {
     public static void main(String[] args) {

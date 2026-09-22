@@ -1,6 +1,6 @@
-package controle;
+package semana04.exencapsu.ex05.controle;
 
-import dominio.Funcionario;
+import semana04.exencapsu.ex05.dominio.Funcionario;
 
 public class ControleFuncionario {
     public static void main(String[] args) {

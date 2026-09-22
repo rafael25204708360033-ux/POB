@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exheranca.ex04.dominio;
 
 public class Quadrado extends FiguraGeometrica {
     private double lado;

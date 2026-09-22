@@ -1,4 +1,4 @@
-package Semana04.ExHeranca.Ex05.dominio;
+package semana04.exheranca.ex05.dominio;
 
 public class Conta {
     private String numero;

@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exencapsu.ex03.dominio;
 
 public class Retangulo {
     private double largura;

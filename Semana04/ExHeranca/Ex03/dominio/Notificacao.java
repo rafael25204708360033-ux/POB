@@ -1,4 +1,4 @@
-package Semana04.ExHeranca.Ex03.dominio;
+package semana04.exheranca.ex03.dominio;
 
 public class Notificacao {
     private String destinatario;

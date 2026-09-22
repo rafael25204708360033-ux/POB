@@ -1,6 +1,6 @@
-package controle;
+package semana04.exencapsu.ex01.controle;
 
-import dominio.Produto;
+import semana04.exencapsu.ex01.dominio.Produto;
 
 public class ControleProduto {
     public static void main(String[] args) {

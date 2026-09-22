@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exheranca.ex03.dominio;
 
 public class EmailNotificacao extends Notificacao {
 

@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exencapsu.ex04.dominio;
 
 public class Carro {
     private String modelo;

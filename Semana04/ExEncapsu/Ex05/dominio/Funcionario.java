@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exencapsu.ex05.dominio;
 
 public class Funcionario {
     private String nome;

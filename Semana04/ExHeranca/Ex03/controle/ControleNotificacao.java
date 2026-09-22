@@ -1,9 +1,9 @@
-package controle;
+package semana04.exheranca.ex03.controle;
 
-import dominio.EmailNotificacao;
-import dominio.Notificacao;
-import dominio.PushNotificacao;
-import dominio.SmsNotificacao;
+import semana04.exheranca.ex03.dominio.EmailNotificacao;
+import semana04.exheranca.ex03.dominio.Notificacao;
+import semana04.exheranca.ex03.dominio.PushNotificacao;
+import semana04.exheranca.ex03.dominio.SmsNotificacao;
 
 public class ControleNotificacao {
 

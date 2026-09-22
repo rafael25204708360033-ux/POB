@@ -1,7 +1,7 @@
-package controle;
+package semana04.exheranca.ex01.controle;
 
-import dominio.Carro;
-import dominio.Moto;
+import semana04.exheranca.ex01.dominio.Carro;
+import semana04.exheranca.ex01.dominio.Moto;
 
 public class ControleVeiculo {
     public static void main(String[] args) {

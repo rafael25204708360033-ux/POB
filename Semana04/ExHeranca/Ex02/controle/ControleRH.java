@@ -1,8 +1,8 @@
-package controle;
+package semana04.exheranca.ex02.controle;
 
-import dominio.Funcionario;
-import dominio.Gerente;
-import dominio.Vendedor;
+import semana04.exheranca.ex02.dominio.Funcionario;
+import semana04.exheranca.ex02.dominio.Gerente;
+import semana04.exheranca.ex02.dominio.Vendedor;
 
 public class ControleRH {
     public static void main(String[] args) {

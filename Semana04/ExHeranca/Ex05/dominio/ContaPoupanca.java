@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exheranca.ex05.dominio;
 
 public class ContaPoupanca extends Conta {
     private double taxaRendimento;

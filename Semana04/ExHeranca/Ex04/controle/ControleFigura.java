@@ -1,9 +1,9 @@
-package controle;
+package semana04.exheranca.ex04.controle;
 
-import dominio.Circulo;
-import dominio.FiguraGeometrica;
-import dominio.Quadrado;
-import dominio.Retangulo;
+import semana04.exheranca.ex04.dominio.Circulo;
+import semana04.exheranca.ex04.dominio.FiguraGeometrica;
+import semana04.exheranca.ex04.dominio.Quadrado;
+import semana04.exheranca.ex04.dominio.Retangulo;
 
 public class ControleFigura {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package controle;
+package semana04.exheranca.ex05.controle;
 
-import dominio.ContaCorrente;
-import dominio.ContaPoupanca;
+import semana04.exheranca.ex05.dominio.ContaCorrente;
+import semana04.exheranca.ex05.dominio.ContaPoupanca;
 
 public class ControleConta {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exencapsu.ex02.dominio;
 
 public class ContaBancaria {
     private final String numeroConta;

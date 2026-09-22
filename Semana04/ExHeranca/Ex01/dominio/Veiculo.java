@@ -1,4 +1,4 @@
-package Semana04.ExHeranca.Ex01.dominio;
+package semana04.exheranca.ex01.dominio;
 
 public class Veiculo {
     private String marca;

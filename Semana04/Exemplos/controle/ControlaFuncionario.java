@@ -1,4 +1,4 @@
-package Semana04.Exemplos.controle;
+package semana04.semana04.exemplos.controle;
 
 import java.util.ArrayList;
 import java.util.Scanner;

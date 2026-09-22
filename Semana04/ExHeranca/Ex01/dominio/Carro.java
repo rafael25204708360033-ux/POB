@@ -1,4 +1,4 @@
-package dominio;
+package semana04.exheranca.ex01.dominio;
 
 public class Carro extends Veiculo {
     private int quantidadePortas;

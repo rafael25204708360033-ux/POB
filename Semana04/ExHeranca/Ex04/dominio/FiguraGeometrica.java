@@ -1,4 +1,4 @@
-package Semana04.ExHeranca.Ex04.dominio;
+package semana04.exheranca.ex04.dominio;
 
 public class FiguraGeometrica {
 
