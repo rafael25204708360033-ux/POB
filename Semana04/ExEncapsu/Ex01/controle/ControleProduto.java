@@ -2,7 +2,7 @@ package controle;
 
 import dominio.Produto;
 
-public class MainProduto {
+public class ControleProduto {
     public static void main(String[] args) {
         Produto produtoA = new Produto("Teclado Mecanico", 250.0, 10);
         Produto produtoB = new Produto("Mousepad Gamer", 80.0);
