@@ -1,0 +1,21 @@
+Atividade e demonstração de codigo sobre Array List
+
+Array list age como uma lista encadeada baseada em estrutura de dados, uma classe que possui como objeto a própria lista com elementos de um mesmo tipo
+de acordo com a classe, o array list possui diversos métodos que facilitam a vida do programador geral, como os métodos:
+
+.Add: repositorioTarefas.add(tarefa);
+    que apenas adiciona o elemento ao final da lista
+
+.Get: repositorioTarefas.get(indice);
+    que retorna a posição que o elemento procurado está na lista
+
+.Remove : repositorioTarefas.removeIf(t -> t.getId().equals(id));
+    que simplesmente remove o elemento, garantindo que não haja nenhum buraco na lista, ficando responsavel pela organização dos ponteiros de forma ideal
+
+.Sort : Collections.sort(repositorioTarefas); (classe subordinada a collections)
+    que organiza a lista em si, com um simples comando
+
+.Size : repositorioTarefas.size(); 
+    que retorna o tamanho da lista
+
+(Código de referência pode ser encontrado no Repositório do professor, nos arquivos referentes a na Aula 11)
