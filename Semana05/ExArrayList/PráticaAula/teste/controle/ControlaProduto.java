@@ -1,11 +1,12 @@
-package fase06.L06Exercicio01.controle;
+package Semana05.ExArrayList.PráticaAula.teste.controle;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import fase06.L06Exercicio01.dominio.Produto;
+import Semana05.ExArrayList.PráticaAula.teste.dominio.Produto;
 
 public class ControlaProduto {
+    
     private ArrayList<Produto> produtos;
 
     public ControlaProduto() {

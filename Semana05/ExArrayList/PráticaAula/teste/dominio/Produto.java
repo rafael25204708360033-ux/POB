@@ -1,4 +1,4 @@
-package fase06.L06Exercicio01.dominio;
+package Semana05.ExArrayList.PráticaAula.teste.dominio;
 
 public class Produto {
     private int id;
