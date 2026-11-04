@@ -54,7 +54,7 @@ public class Pessoa {
         
         if (data.length != 4) {
             
-            throw new IllegalArgumentException("Linha de dados inválida para criação de Produto: " + line);
+            throw new IllegalArgumentException("Linha de dados inválida para criação de Pessoa: " + line);
         }
 
         try {
