@@ -21,10 +21,10 @@ public class PessoaView {
 
             do {
                 System.out.println("\nMenu:");
-                System.out.println("1. Adicionar Produto");
-                System.out.println("2. Listar Produtos");
-                System.out.println("3. Alterar Produto");
-                System.out.println("4. Excluir Produto");
+                System.out.println("1. Adicionar Pessoa");
+                System.out.println("2. Listar Pessoas");
+                System.out.println("3. Alterar Pessoa");
+                System.out.println("4. Excluir Pessoa");
                 System.out.println("0. Sair");
                 System.out.print("Escolha uma opção: ");
                 
@@ -42,12 +42,12 @@ public class PessoaView {
 
         private void adicionarPessoa() {
         int id = capturarId();
-        String nome = capturarString("Nome do Produto: ");
+        String nome = capturarString("Nome da Pessoa: ");
         int idade = capturarIdade("Idade: ");
         double altura = capturarAltura("Altura: ");
         
         controla.adicionarPessoa(id, nome, idade,altura);
-        System.out.println("Pessoa adicionado com sucesso!");
+        System.out.println("Pessoa adicionada com sucesso!");
 
     }
         private void listarPessoas() {
@@ -80,7 +80,7 @@ public class PessoaView {
     }
 
     private int capturarId() {
-        return capturarInteiro("ID do Produto: ");
+        return capturarInteiro("ID da Pessoa: ");
     }
 
     private int capturarInteiro() {
