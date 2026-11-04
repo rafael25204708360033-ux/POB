@@ -18,7 +18,7 @@ public class PessoaRepository {
             }
         
         } catch (IOException e) {
-            System.out.println("Erro ao salvar produtos: " + e.getMessage());
+            System.out.println("Erro ao salvar pessoas: " + e.getMessage());
         }
     }
 
