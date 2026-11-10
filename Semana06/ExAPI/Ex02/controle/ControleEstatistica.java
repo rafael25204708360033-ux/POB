@@ -17,18 +17,18 @@ public class ControleEstatistica {
                 new Produto("Cadeira Gamer", 1500.00)
         );
 
-        // 1. Valor total somado
+        
         double valorTotal = produtos.stream()
                 .mapToDouble(Produto::getPreco)
                 .sum();
 
-        // 2. Preço médio
+        
         double precoMedio = produtos.stream()
                 .mapToDouble(Produto::getPreco)
                 .average()
                 .orElse(0.0);
 
-        // 3. Produto com o maior preço
+        
         Optional<Produto> produtoMaisCaro = produtos.stream()
                 .max(Comparator.comparingDouble(Produto::getPreco));
 

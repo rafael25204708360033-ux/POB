@@ -17,19 +17,19 @@ public class ControlePipeline {
                 new Funcionario("Marcos", "TI", 3500.00)
         );
 
-        // 1. Predicate: filtra quem e do departamento "TI"
+        
         Predicate<Funcionario> eDoDepartamentoTI = f -> "TI".equalsIgnoreCase(f.getDepartamento());
 
-        // 2. Function: extrai o salario com 10% de reajuste projetado
+        
         Function<Funcionario, Double> calcularReajuste = f -> f.getSalario() * 1.10;
 
-        // 3. Consumer: imprime o valor projetado formatado no console
+        
         Consumer<Double> imprimirSalarioReajustado = valor -> 
                 System.out.printf("Salario Projetado (TI +10%%): R$ %.2f\n", valor);
 
         System.out.println("=== PIPELINE DE REAJUSTE DE SALARIO (DEPARTAMENTO TI) ===");
         
-        // 4. Encadeamento no pipeline único do Stream
+        
         funcionarios.stream()
                 .filter(eDoDepartamentoTI)
                 .map(calcularReajuste)

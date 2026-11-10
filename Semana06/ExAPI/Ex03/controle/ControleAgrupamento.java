@@ -17,7 +17,7 @@ public class ControleAgrupamento {
                 new Aluno("Mariana", "Sistemas de Informacao", 4.0)
         );
 
-        // 1. Agrupamento por Curso
+        
         Map<String, List<Aluno>> alunosPorCurso = alunos.stream()
                 .collect(Collectors.groupingBy(Aluno::getCurso));
 
@@ -27,7 +27,7 @@ public class ControleAgrupamento {
             lista.forEach(a -> System.out.println("  - " + a));
         });
 
-        // 2. Particionamento por Aprovação (Nota > 7.0)
+        
         Map<Boolean, List<Aluno>> alunosParticionados = alunos.stream()
                 .collect(Collectors.partitioningBy(aluno -> aluno.getNotaFinal() > 7.0));
 

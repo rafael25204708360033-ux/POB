@@ -11,7 +11,7 @@ public class ControleNomes {
                 .filter(nome -> nome.toLowerCase().startsWith("a"))
                 .map(String::toUpperCase)
                 .sorted()
-                .toList(); // No Java 16+, toList() substitui Collectors.toList()
+                .toList();
 
         System.out.println("=== NOMES FILTRADOS E TRANSFORMADOS ===");
         resultado.forEach(System.out::println);
